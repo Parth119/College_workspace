@@ -51,3 +51,5 @@ void main()
 
     printf("\nMaximum profit of Knapsack problem :%d",knapsack(wt,val));
 }
+
+//ver 1.1
