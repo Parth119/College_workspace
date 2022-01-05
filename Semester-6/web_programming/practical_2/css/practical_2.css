@@ -1,0 +1,70 @@
+body {
+    /* background-color: #FAEDF0; */
+    background-color: #F7F7F7;
+}
+
+h1 {
+    font-family: 'Ubuntu', sans-serif;
+    color: #6998AB;
+}
+
+
+.regHeading {
+    text-align: center;
+    color: #362222;
+    margin: 5% 5%;
+}
+
+.stuDetail {
+    /* color: #362224; */
+    color: #191919;
+    margin: 5% 10%;
+    font-family: 'Raleway', sans-serif;
+}
+
+.table_one {
+    margin-top: 5%;
+}
+
+.table_two {
+    margin-top: 2.5%;
+}
+
+table { 
+    border-spacing: 15px;
+    border-collapse: separate;
+    margin-left: 25%;
+    margin-right: 25%;
+    border: 1px;
+}
+
+.entityFont {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: large;
+}
+
+.hintFont {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: medium;
+    color: #6998AB;
+}
+
+
+.alert {
+    margin-top: 5%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+span {
+    color: red;
+}
+
+.spaced {
+    padding-left: 100px;
+}
+
+.final {
+    margin-top: 2%;
+    margin-left: 26%;
+}

@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Portal</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/practical_2.css">
+
+    <!-- script -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,600&family=Ubuntu:ital@1&display=swap"
+        rel="stylesheet">
+
+    <!-- icon -->
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/2991/2991110.png">
+
+</head>
+
+<body>
+    <h1 class="regHeading">Student Registration Form</h2>
+        <h2 class="stuDetail">Student Details:</h2>
+
+        <form action="reqSubmitted.html" method="post" enctype="text/plain">
+
+            <div class="table_one">
+                <div class="alert alert-dark" role="alert">
+                    <label for="" style="font-family: 'Raleway', sans-serif;">Basic Information</label>
+                </div>
+
+                <table>
+                    <tr>
+                        <th><label for="" class="entityFont">Full Name: <span><sup>*</sup></span></label></th>
+                    </tr>
+
+                    <tr>
+                        <td><input type="text"></td>
+                        <td><input type="text"></td>
+                        <td><input type="text"></td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="" class="hintFont">(First Name)</label></td>
+                        <td><label for="" class="hintFont">(Middel Name)</label></td>
+                        <td><label for="" class="hintFont">(Last Name)</label></td>
+                    </tr>
+
+                </table>
+            </div>
+
+            <div class="table_two">
+                <table border="0">
+                    <tr>
+                        <th>
+                            <label for="" class="entityFont">Student Number: <span><sup>*</sup></span></label>
+                        </th>
+                        <td class="spaced">&nbsp</td>
+                        <th>
+                            <label for="" class="entityFont">Year Level: <span><sup>*</sup></span></label>
+                        </th>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <input type="number" name="" id="" size="23" placeholder="Enter your Enrolment">
+                        </td>
+                        <td class="spaced">&nbsp</td>
+                        <td>
+                            <div class="btn-group">
+                                <button class="btn btn-secondary btn-lg" type="button">
+                                    <label for="" style="color: antiquewhite;">Please Select</label>
+                                  </button>
+                                <button type="button" class="btn btn-lg btn-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                  <span class="sr-only">Toggle Dropdown</span>
+                                </button>
+                                <div class="dropdown-menu">
+                                  
+                                  <a class="dropdown-item" href="#"><label for="" class="entityFont">First Year</label></a>
+                                  <a class="dropdown-item" href="#"><label for="" class="entityFont">Second Year</label></a>
+                                  <a class="dropdown-item" href="#"><label for="" class="entityFont">Third Year</label></a>
+                                  <a class="dropdown-item" href="#"><label for="" class="entityFont">Fourth Year</label></a>
+                                </div>
+                              </div>
+                        </td>
+
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <label for="" class="hintFont">eg: 190840131004</label>
+                        </td>
+                        <td class="spaced">&nbsp</td>
+                        <td>
+                            <label for="" class="hintFont">eg: First Year</label>
+                        </td>
+                    </tr>
+
+                </table>
+            </div>
+
+            <div clas="table_one">
+                <table border="0">
+                    <tr>
+                        <th><label for="" class="entityFont">Email: <span><sup>*</sup></span></label></th>
+                        <td class="spaced">&nbsp</td>
+                        <th><label for="" class="entityFont">Degree Program: </label></th>
+                    </tr>
+                    
+                    <tr>
+                        <td><input type="email" placeholder="bhatiaparth119@gmail.com" size="23"></td>
+                        <td class="spaced">&nbsp</td>
+                        <td><input type="text" size="23" placeholder=" eg: B.E."></td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="table_two">
+                <table>
+                    <tr>
+                        <th><label for="" class="entityFont">Mobile Number: </label><span><sup>*</sup></span></label></th>
+                        <td class="spaced">&nbsp</td>
+                        <th><label for="" class="entityFont">Telephone Number: </label></th>
+                    </tr>
+
+                    <tr>
+                        <td><input type="number" size="23"></td>
+                        <td class="spaced">&nbsp</td>
+                        <td><input type="number" size="20"></td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="table_two">
+                
+                <table>
+                    <tr>
+                        <th><label for="" class="entityFont">Address: </label><span><sup>*</sup></span></label></th>
+                        <td><textarea name="message" id="" cols="60" rows="8"></textarea></td>
+                    </tr>
+
+                </table>
+
+            </div>
+
+            <div class="table_one">
+
+                <table>
+                    <tr>
+                        <td><button type="button" class="btn btn-secondary btn-lg" onclick="document.location='reqSubmitted.html'"><label for="" class="entityFont">Submit Form</label></button></td>
+                    </tr>
+                </table>
+
+            </div>
+
+        </form>
+
+</body>
+
+</html>
